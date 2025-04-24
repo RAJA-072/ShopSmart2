@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/round_bg"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/register_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Shop Smart!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FF6F00"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnAddItem"
+            style="@style/DashboardButton"
+            android:text="➕ Add Grocery Item" />
+
+        <Button
+            android:id="@+id/btnViewItems"
+            style="@style/DashboardButton"
+            android:text="📋 View All Items" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            style="@style/DashboardButton"
+            android:text="📷 Add with Camera" />
+
+        <Button
+            android:id="@+id/btnMap"
+            style="@style/DashboardButton"
+            android:text="📍 Find Stores" />
+
+        <Button
+            android:id="@+id/btnMessage"
+            style="@style/DashboardButton"
+            android:text="📤 Notify via SMS/WhatsApp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E7F4F2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Reminder"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/numberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:background="@drawable/rounded_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Message"
+        android:minLines="4"
+        android:gravity="top"
+        android:background="@drawable/rounded_edit"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/smsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send via SMS"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#fff"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/whatsappButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send via WhatsApp"
+        android:backgroundTint="#075e54"
+        android:textColor="#fff"/>
+</LinearLayout>

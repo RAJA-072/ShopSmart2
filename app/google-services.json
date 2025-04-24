@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511766587312",
+    "project_id": "shopsmart-162f6",
+    "storage_bucket": "shopsmart-162f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511766587312:android:7c2ca8908c5031ff001875",
+        "android_client_info": {
+          "package_name": "com.example.shopsmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6cK6bRF0etBAfZRxzOv7NzAUZN9qzVUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
